@@ -12,10 +12,11 @@ interface Props {
     width: number;
     height: number;
     index: number;
+    style?: React.CSSProperties;
 }
 
 
-const SkillDataProvider = ({ src, width, height, index} : Props) => {
+const SkillDataProvider = ({ src, width, height, index, style} : Props) => {
     const {ref, inView} = useInView({
         triggerOnce: true
     });
@@ -42,6 +43,8 @@ const SkillDataProvider = ({ src, width, height, index} : Props) => {
         width={width}
         height={height}
         alt='skill image'
+        style={style}
+        className="w-auto h-auto"
       />
     </motion.div>
   )

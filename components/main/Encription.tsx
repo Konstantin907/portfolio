@@ -29,7 +29,8 @@ const Encryption = () => {
             alt="Lock top"
             width={50}
             height={50}
-            className="w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
+            className=" translate-y-5 transition-all duration-200 group-hover:translate-y-11 w-full h-auto"
+           
           />
           <Image
             src="/LockMain.png"

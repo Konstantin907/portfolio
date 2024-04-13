@@ -3,8 +3,8 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '../../../utils/motion';
-import { SparklesIcon } from '@heroicons/react/16/solid';
-import Image from 'next/image';
+import { SparklesIcon } from '@heroicons/react/16/solid'
+import Image from "next/image";
 
 export const HeroContent = () => {
   return (
@@ -39,7 +39,11 @@ export const HeroContent = () => {
             className='text-lg text-gray-400 my-5 max-w-[600px]'     
           >
               I&apos;m a Front End Software Developer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          and Software development. 
+          I am a proficient Front End Developer with a passion for creating aesthetically pleasing and user-centric websites. 
+          Leveraging modern technologies like React and JavaScript, 
+          I excel in developing interactive and responsive designs. My portfolio showcases a range of projects highlighting my commitment to 
+          enhancing user experience and delivering functional, elegant solutions. Check out my projects and skills.
           </motion.p>
 
           <motion.a
@@ -60,6 +64,7 @@ export const HeroContent = () => {
           alt="work icons"
           height={650}
           width={650}
+          className='w-auto h-auto'
         />
         </motion.div>
     </motion.div>
