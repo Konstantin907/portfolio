@@ -39,6 +39,16 @@
 
 
 
+  @layer utilities {
+    .pointer {
+      cursor: pointer !important;
+    }
+  }
+  
+
+
+
+
 .button-primary {
   background: linear-gradient(
       180deg,
