@@ -19,15 +19,15 @@ const Projects = () => {
           url="https://bank-app-hs1l.vercel.app/"
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          url= ""
+          src="/spotify-clone.png"
+          title="Spotify Clone Website"
+          description="Web UI of one of the most popular app online. using ReactJS, Javascript, CSS."
+          url= "https://spotify-clone-frontend-phi.vercel.app/"
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="iNTERACTIVE wEBISTE cards"
+          description="lOREM"
           url= ""
         />
       </div>

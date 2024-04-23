@@ -11,7 +11,7 @@ interface Props {
 const ProjectCard = ({ src, title, description, url }: Props) => {
   return (
   <div className="overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] ">
-      <a href={"https://bank-app-hs1l.vercel.app/"} target="_blank" className="cursor-pointer z-50">
+      <a href={url} target="_blank" className="cursor-pointer z-50">
             <Image
             src={src}
             alt={title}
@@ -28,7 +28,7 @@ const ProjectCard = ({ src, title, description, url }: Props) => {
       <div className="p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
-        <a href="https://bank-app-hs1l.vercel.app/" target="_blank" rel="noopener noreferrer" className="mt-2 text-gray-300 cursor-pointer">{url}</a>
+        <a href={url} target="_blank" rel="noopener noreferrer" className="mt-2 text-gray-300 cursor-pointer">{url}</a>
       </div>
     </div>
   );
