@@ -7,10 +7,10 @@ import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motio
 import { SparklesIcon } from '@heroicons/react/24/solid'
 const SkillText = () => {
   return (
-    <div className='w-full h-auto flex flex-col items-center justify-center'>
+    <div className='w-full h-auto flex flex-col items-center justify-center mt-[280px]'>
 <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-8 w-8" />
           <h1 className="Welcome-text text-[20px]">

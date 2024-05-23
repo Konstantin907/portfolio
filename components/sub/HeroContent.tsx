@@ -40,10 +40,10 @@ export const HeroContent = () => {
           >
               I&apos;m a Front End Software Developer with experience in Website,
           and Software development. 
-          I am a proficient Front End Developer with a passion for creating aesthetically pleasing and user-centric websites. 
-          Leveraging modern technologies like React and JavaScript, 
+          I am a proficient developer with a passion for creating aesthetically pleasing and user-centric websites. 
+          Leveraging modern technologies like React and JavaScript, NextJS, ThreeJS, Typescript, Bootstrap, SCSS etc.
           I excel in developing interactive and responsive designs. My portfolio showcases a range of projects highlighting my commitment to 
-          enhancing user experience and delivering functional, elegant solutions. Check out my projects and skills.
+          enhancing user experience and delivering functional, elegant solutions. Check out my projects and skills for more info.
           </motion.p>
 
           <motion.a
