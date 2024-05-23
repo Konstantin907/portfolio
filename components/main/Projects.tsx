@@ -19,16 +19,16 @@ const Projects = () => {
           url="https://bank-app-hs1l.vercel.app/"
         />
         <ProjectCard
-          src="/spotify-clone.png"
-          title="Spotify Clone Website"
-          description="Web UI of one of the most popular app online. using ReactJS, Javascript, CSS."
-          url= "https://spotify-clone-frontend-phi.vercel.app/"
+          src="/Threejs.png"
+          title="3D Shirts models"
+          description="Threejs website for creating your own t-shirt brand, it works for full shirt or just logo with color changes also in a color pallete."
+          url= "https://threejs-project-delta.vercel.app/"
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="iNTERACTIVE wEBISTE cards"
-          description="lOREM"
-          url= ""
+          src="/nasa.png"
+          title="Nasa clone"
+          description="Cloned NASA website with 768px responsivness, with all features from their beautiful website, dropdowns, functionality etc"
+          url= "https://nasa-clone-ten.vercel.app/"
         />
       </div>
     </div>

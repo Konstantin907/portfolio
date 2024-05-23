@@ -37,12 +37,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "Type Script",
       Image: "/ts.png",
@@ -61,24 +56,14 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Stripe Payment",
-      Image: "/stripe.webp",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "Node js",
       Image: "/node-js.png",
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Mongo db",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
-    },
+    
   
   ];
   
@@ -159,35 +144,8 @@ export const Skill_data = [
     },
   ];
   
-  export const Backend_skill = [
-    {
-      skill_name: "Node js",
-      Image: "/node-js.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Express js",
-      Image: "/express.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Mongo db",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
-    },
-    
-    {
-      skill_name: "Postgre SQL",
-      Image: "/postger.png",
-      width: 70,
-      height: 70,
-    },
-    
-    
-  ];
+
+
   
   export const Full_stack = [
     {
