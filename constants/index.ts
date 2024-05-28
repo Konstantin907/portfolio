@@ -91,10 +91,10 @@ export const Skill_data = [
       src: "/github.svg",
       http: "https://github.com/Konstantin907"
     },
-    {
+    /*{
       name: "Discord",
       src: "/discord.svg",
-    },
+    },*/
   ];
   
   
