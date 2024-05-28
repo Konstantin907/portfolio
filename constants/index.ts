@@ -1,4 +1,4 @@
-
+ 
 
 export const Skill_data = [
     {
@@ -63,6 +63,19 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
+    {
+      skill_name: "Figma",
+      Image: "/figma.png",
+      width: 50,
+      height: 50,
+    },
+    {
+      skill_name: "Material UI",
+      Image: "/mui.png",
+      width: 80,
+      height: 80,
+    },
+
     
   
   ];
@@ -86,7 +99,7 @@ export const Skill_data = [
   
   
   
-  export const Frontend_skill = [
+  /*export const Frontend_skill = [
     {
       skill_name: "Html 5",
       Image: "/html.png",
@@ -111,12 +124,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Material UI",
-      Image: "/mui.png",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "React",
       Image: "/react.png",
@@ -142,7 +150,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-  ];
+  ]; */
   
 
 
